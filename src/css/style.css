@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.secao-topo {
+    background-image: url('../img/banner-cdz.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    padding: 300px 0;
+}
+
+h1{
+    background-color: #000000;
+    color: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 22px;
+    padding: 5px 0;
+}
+h2{
+    background-color:#1f6bde;
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.flex img{
+    width: 250px;
+    height: 200px;
+}
+.elenco,
+.sinopse{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.elenco h3,
+.sinopse h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.elenco p,
+.sinopse p{
+    line-height: 33px;
+}
+.armadura{
+    background-image: url('../img/seiya-levitando.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+.sinopse p{
+    margin-bottom: 60px;
+}
+span{
+    background-color: red;
+    color:#ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
+@media (max-width: 540px){
+   .secao-topo h1,
+   .secao-topo h2{
+    width: 300px;
+   }
+   .elenco,
+   .sinopse{
+    padding-left: 50px;
+   }
+   .elenco img{
+    margin-left: 90px;
+    margin-bottom: 15px;
+   }
+  }
